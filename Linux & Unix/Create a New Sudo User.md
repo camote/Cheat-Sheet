@@ -38,6 +38,14 @@
     ## Same thing without a password
     %wheel  ALL=(ALL)       NOPASSWD: ALL
   ```
+  
+  OR
+  
+  * Delete User Password
+   `passwd --delete username`
+   
+  * Disable ssh password login
+    `usermod -s /usr/sbin/nologin username`
 
 
 ## Enable ssh access to user
