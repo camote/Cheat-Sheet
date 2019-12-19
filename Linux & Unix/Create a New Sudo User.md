@@ -44,8 +44,6 @@
   * Delete User Password
    `passwd --delete username`
    
-  * Disable ssh password login
-    `usermod -s /usr/sbin/nologin username`
 
 
 ## Enable ssh access to user
